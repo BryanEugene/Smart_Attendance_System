@@ -1,9 +1,10 @@
+To update the README to include React as part of the tech stack and add a UI screenshot, here’s how you can modify it:
 
 ---
 
 # Face Recognition Project
 
-This repository contains a face recognition project implemented in Python, utilizing machine learning and computer vision techniques to identify and verify faces from given image data.
+This repository contains a face recognition project implemented in Python, utilizing machine learning, computer vision, and a user interface developed with React. The system identifies and verifies faces from given image data.
 
 ## Table of Contents
 
@@ -13,11 +14,12 @@ This repository contains a face recognition project implemented in Python, utili
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Future Enhancements](#future-enhancements)
+- [UI Screenshot](#ui-screenshot)
 - [License](#license)
 
 ## Project Overview
 
-This project demonstrates a face recognition system using [insert specific libraries used] to perform detection and recognition of human faces. It involves key processes such as data preprocessing, feature extraction, and model training, designed to match input images against a database of known faces.
+This project demonstrates a face recognition system using Python and React. The backend performs detection and recognition of human faces using machine learning models, while the frontend UI (built with React) provides an interactive interface. The system includes processes such as data preprocessing, feature extraction, model training, and real-time face recognition.
 
 ## Features
 
@@ -25,6 +27,7 @@ This project demonstrates a face recognition system using [insert specific libra
 - **Face Recognition**: Match faces to a predefined set of known identities.
 - **Preprocessing Pipeline**: Includes image resizing, scaling, and normalization.
 - **Model Training**: Train a face recognition model with a labeled dataset.
+- **User Interface**: Interactive UI built with React to facilitate data input and visualization.
 
 ## Setup Instructions
 
@@ -32,11 +35,17 @@ This project demonstrates a face recognition system using [insert specific libra
    ```bash
    git clone https://github.com/your-username/FaceRecognition.git
    ```
-2. Install the required dependencies:
+2. Install the required backend dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the Jupyter Notebook:
+3. Start the React frontend:
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
+4. Run the Jupyter Notebook for backend processing:
    ```bash
    jupyter notebook FaceRecognition(2).ipynb
    ```
@@ -44,19 +53,32 @@ This project demonstrates a face recognition system using [insert specific libra
 ## Usage
 
 - **Notebook**: Open the Jupyter Notebook to view, edit, and execute each code cell interactively.
-- **Face Recognition Execution**: Follow the instructions within each cell to preprocess the data, train the model, and test it with sample images.
+- **React Frontend**: Open the frontend in your browser to interact with the face recognition system.
+- **Face Recognition Execution**: Follow the instructions within the notebook and the frontend UI to preprocess data, train the model, and test it with sample images.
 
 ## Technologies Used
 
-- **Python**
+- **Python** (Backend, Face Recognition)
 - **Jupyter Notebook**
-- [Include specific libraries such as OpenCV, TensorFlow, scikit-learn, etc.]
+- **React** (Frontend, UI)
+- **JavaScript**
+- **Machine Learning Libraries**:
+  - **OpenCV**: For image processing and face detection.
+  - **TensorFlow/Keras**: For training and deploying the face recognition model.
+  - **scikit-learn**: For model evaluation and metrics.
 
 ## Future Enhancements
 
 - Improve model accuracy with additional data.
 - Explore additional face recognition techniques or architectures.
-- Develop a user-friendly interface.
+- Further develop the React UI for a more user-friendly experience.
+- Integrate backend and frontend for seamless real-time face recognition.
+
+## UI Screenshot
+
+![UI Screenshot](.\src\assets\image\UI_Test.png)
+
+*(Replace `./path/to/your-screenshot.png` with the relative path to the screenshot image you want to display in the README.)*
 
 ## License
 
@@ -64,4 +86,9 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ---
 
-Let me know if there are specific library or model details from the notebook I should include!
+### Instructions
+
+1. **Screenshot Placement**: Place your UI screenshot in the repository (e.g., in the root directory or a `docs` folder) and update the path in `![UI Screenshot](./path/to/your-screenshot.png)` to point to it.
+2. **Specific Libraries**: Make sure to replace `[Include specific libraries such as OpenCV, TensorFlow, scikit-learn, etc.]` in the README with the actual libraries you're using for this project.
+
+With these modifications, your README will reflect the React UI and provide a visual of the interface for users.
