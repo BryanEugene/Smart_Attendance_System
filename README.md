@@ -76,9 +76,9 @@ This project demonstrates a face recognition system using Python and React. The 
 
 ## UI Screenshot
 
-![UI Screenshot](.\src\assets\image\UI_Test.png)
-
-*(Replace `./path/to/your-screenshot.png` with the relative path to the screenshot image you want to display in the README.)*
+![UI Screenshot](src\assets\image\UI_Test.png)
+<!-- 
+*(Replace `./path/to/your-screenshot.png` with the relative path to the screenshot image you want to display in the README.)* -->
 
 ## License
 
