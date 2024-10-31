@@ -1,4 +1,3 @@
-To update the README to include React as part of the tech stack and add a UI screenshot, here’s how you can modify it:
 
 ---
 
@@ -75,8 +74,8 @@ This project demonstrates a face recognition system using Python and React. The 
 - Integrate backend and frontend for seamless real-time face recognition.
 
 ## UI Screenshot
+![alt text](https://github.com/BryanEugene/Smart_Attendance_System/blob/main/src/assets/image/UI_Test.png)
 
-![UI Screenshot](src\assets\image\UI_Test.png)
 <!-- 
 *(Replace `./path/to/your-screenshot.png` with the relative path to the screenshot image you want to display in the README.)* -->
 
@@ -85,10 +84,3 @@ This project demonstrates a face recognition system using Python and React. The 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-
-### Instructions
-
-1. **Screenshot Placement**: Place your UI screenshot in the repository (e.g., in the root directory or a `docs` folder) and update the path in `![UI Screenshot](./path/to/your-screenshot.png)` to point to it.
-2. **Specific Libraries**: Make sure to replace `[Include specific libraries such as OpenCV, TensorFlow, scikit-learn, etc.]` in the README with the actual libraries you're using for this project.
-
-With these modifications, your README will reflect the React UI and provide a visual of the interface for users.
